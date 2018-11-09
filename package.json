@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon",
+    "dev": "nodemon --ext js,hbs",
     "lint": "standard",
     "lint-fix": "standard --fix",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,9 +13,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "handlebars": "^4.0.12",
     "hapi": "^17.7.0",
     "inert": "^5.1.2",
-    "path": "^0.12.7"
+    "path": "^0.12.7",
+    "vision": "^5.4.3"
   },
   "devDependencies": {
     "nodemon": "^1.18.6",
