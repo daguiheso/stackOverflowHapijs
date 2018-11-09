@@ -3,6 +3,7 @@
 const Hapi = require('hapi')
 const handlebars = require('handlebars')
 const path = require('path')
+const routes = require('./routes')
 const inert = require('inert')
 const vision = require('vision')
 
@@ -31,53 +32,13 @@ async function init() {
 			layoutPath: 'views'
 		})
 
+		server.route(routes)
+
 		await server.start()
 	} catch (error) {
 		console.error(error) /* controlando error */
 		process.exit(1) /* terminando proceso */
 	}
-
-	server.route({
-		method: 'GET',
-		path: '/',
-		handler: (req, h) => {
-			// return h.response('Hola mundo...').code(200)
-			return h.view('index', {
-				title: 'hola'
-			})
-		}
-	})
-
-	server.route({
-		method: 'GET',
-		path: '/register',
-		handler: (req, h) => {
-			// return h.response('Hola mundo...').code(200)
-			return h.view('register', {
-				title: 'register'
-			})
-		}
-	})
-
-	server.route({
-		method: 'POST',
-		path: '/create-user',
-		handler: (req, h) => {
-			console.log(req.payload)
-			return 'Usuario creado'
-		}
-	})
-
-	server.route({
-		method: 'GET',
-		path: '/{param*}',
-		handler: {
-			directory: {
-				path: '.',
-				index: ['index.html']
-			}
-		}
-	})
 
 	console.log(`Servidor lanzado en: ${server.info.uri}`)
 }
