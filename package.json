@@ -13,7 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "hapi": "^17.7.0"
+    "hapi": "^17.7.0",
+    "inert": "^5.1.2",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "nodemon": "^1.18.6",
