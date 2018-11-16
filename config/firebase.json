@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "hapijsoverflow",
+  "private_key_id": "eec90b01d4af87e255dee99826de54db2a6493f3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCcAcKdO/i1Hi7j\nONRgvuhU7rEX0+XhPPRx2//BNrwOYAAAfLUaMuDccicgy5zKT7V8kKYJtlc43GU0\nHKqaA6HbTpRGp0ylzXfaEGEYOL7iow7RYb4tCwQNJKlpSvpkEprjfO/MJWElTUA4\n1N8N3lAERcqDtH4Zj5U0vfHMHLsOGMBORYncETvvMaOcLyleuLvWk/bYkuedJkrJ\no5dx59IswD5ECgjN8p7LV6kweLYL6wLkSsCHvDzruhLG20PBoDVYNOxnkHcmL5O8\noMO/xCFHyoEv4JT6Xd7rLoFFc1a+XOhoQb8O3I3L4qkeUWEEOGKHZIjMbe/fmA1J\n1leHJiKRAgMBAAECggEAP3a12WnurJtpPpU9TFgNQpPRZhyU/TJjTLhPDCY8jWp/\nRbN1pwFAmV00zrIWB/UyIsjjSrsrM13xK6hnvHyyyPjn9/ASDbcOxR55qTVYbfEg\nU4w8Ja3ACaq64jMWtkQdT2LhWD5yjQ6mjBgI32brTTmo/zgbPkG7VHfa2ApuC/bh\n1mSfjVT0HhsVociEPaIBfyiwQ0Gwah84A+askHEPvDRHn96Cy77+01mcMkRleBzv\ngZFOvMdH5hWnbLqmh4nB5dCbFgnOUNRxt/HIbjQ3KuaEz7Jq0qCgOMZwvZu30B96\ntkMREGt7vL7rIu+grs8IlsZH46TcW91DfIKCQPLngwKBgQDTW/OpqqbF0+cjHlj+\n6rrCoMUoaNWETGQ2IvZ1hiW/GRuccGtBrunPkI5wjMQCUmKBeOAwIDzyyLTKmDKE\n1qmVnaf7q99hVTPN6NdcQaRJsJN2fSAmJPtvaGtg3vFs3mrcmr1K9ZdKUzt7zPyp\n7ZYk3zq+cmWhhUGjSGoNpCxm1wKBgQC89PJICCjtOy7Px0Ivj17Vqn4DmYY58jQr\nCtSX2XgvCS0xFyCZJyZ5kJ23yxL2+8BE8KJsDKj4nEWsoxNlKMUmLGsfTq7+S124\nQXB0jn6pFz/NQaFq5qeT7GFaD7B8L3L2WWA4oKMtM5jgKk4RvlvELliOdWQ+FGr1\nn7/Pnf3c1wKBgG1Ja3l8etVp12cKRxwwhTcj6C4X3ueUlHCFrYhhP91K/0Lpwhvp\ndI5WAcDimGtW7AZkWQ+pa7ph21GyVtTnJjLtnTF90nhClRHQZqMWcfuEaQtocZon\nnzcg9/zT6mPPsdO101ESIhNVbDl8adz3s54HKxnUjwZwn9rtE6FQFYFrAoGAeWXB\nluevK6LfU1yIODgbTJjptvRWmTnzrEecCCcOoOF7aFOcfOj7PhTcT22ntIhPobsc\nDuEfWgJEfUKUPmSwLPNSq12I7hWLk8pvLmMyGv613fAxfZXMyiuO7CayU0bEzGLl\nf9wsmejRaguj9qBfIq5H9NaU3ZGOmlnVCNVPeScCgYBJaDOoRSdpYWRcOvs1fSgT\nHcc7zEdBCFQc4whPwUcL1l+UdBEqPBI7RBBzu5H4GSsL7evfML6G91Vw3kZuJinH\niKUz/0C79aRrF+LzG+GsG64nkR2WCeL5gdaMqRiv9E68+Ou4imBLQlk9WiRkOzfY\nsL+KWTsfUpAf7JC4RFuxdg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-nnq28@hapijsoverflow.iam.gserviceaccount.com",
+  "client_id": "108944890559636987866",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-nnq28%40hapijsoverflow.iam.gserviceaccount.com"
+}
