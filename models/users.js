@@ -17,6 +17,24 @@ class Users {
 		return newUser.key
 	}
 
+	async validateUser(data) {
+		/*
+		* orderByChild permite ordenar por el hijo de la colección
+		* once('value') garantiza que devolvera algun valor, ya sea valido o invalido
+		*/
+		const userQuery = await this.collection.orderByChild('email').equalTo(data.email).once('value')
+		console.error(userQuery)
+		const userFound = userQuery.val() // .val() transforma el valor total en un objeto
+		console.error(userFound)
+		if (userFound) {
+			const userId = Object.keys(userFound)[0]
+			const passwordRight = await bcrypt.compare(data.password, userFound[userId].password)
+			const result = (passwordRight) ? userFound[userId] : false
+			return result
+		}
+		return false
+	}
+
 	static async encrypt(password) {
 		const saltRounds = 10
 		const hashedPassword = await bcrypt.hash(password, saltRounds)
